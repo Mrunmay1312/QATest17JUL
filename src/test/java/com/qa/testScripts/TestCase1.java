@@ -13,7 +13,7 @@ public class TestCase1 {
 	public void setup() throws InterruptedException
 	{
 		// Start chrome browser
-		System.setProperty("webdriver.chrome.driver", "/test-output/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "test-output/chromedriver");
 		WebDriver driver= new ChromeDriver();
 		
 		driver.manage().window().maximize();
