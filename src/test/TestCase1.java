@@ -15,7 +15,7 @@ public class TestCase1 {
 		// Start chrome browser
 		
 		WebDriver driver= new ChromeDriver();
-		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Project/Job-3 Testing using selenium/test-output/chromedriver");
+		System.setProperty("webdriver.chrome.driver", "test-output/chromedriver");
 		driver.manage().window().maximize();
 		
 		// open the addressboo app on the chrome browser
