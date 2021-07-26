@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class TestCase1 {
 	
-	@Test
+	
 	public void setup() throws InterruptedException
 	{
 		// Start chrome browser
@@ -20,7 +20,7 @@ public class TestCase1 {
 		
 		// open the addressboo app on the chrome browser
 		
-		driver.get("http://34.133.214.251:49153/addressbook/");
+		driver.get("http://3.142.55.209:49153/addressbook/");
 		
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		
