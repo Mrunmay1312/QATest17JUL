@@ -13,7 +13,7 @@ public class TestCase1 {
 	public void setup() throws InterruptedException
 	{
 		// Start chrome browser
-		System.setProperty("webdriver.chrome.driver", "test-output/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Project/Job-3 Testing using selenium/chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		
 		driver.manage().window().maximize();
