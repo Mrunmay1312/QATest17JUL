@@ -13,9 +13,9 @@ public class TestCase1 {
 	public void setup() throws InterruptedException
 	{
 		// Start chrome browser
-		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Project/Job-3 Testing using selenium/test-output/chromedriver");
-		WebDriver driver= new ChromeDriver();
 		
+		WebDriver driver= new ChromeDriver();
+		System.setProperty("webdriver.chrome.driver", "/var/lib/jenkins/workspace/Project/Job-3 Testing using selenium/test-output/chromedriver");
 		driver.manage().window().maximize();
 		
 		// open the addressboo app on the chrome browser
