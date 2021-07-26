@@ -20,7 +20,7 @@ public class TestCase1 {
 		
 		// open the addressboo app on the chrome browser
 		
-		driver.get("http://3.142.55.209:8080/addressbook/");
+		driver.get("http://18.116.8.120:49153/addressbook/");
 		
 		driver.manage().timeouts().pageLoadTimeout(5, TimeUnit.SECONDS);
 		
